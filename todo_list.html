@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="./resources/css/common.css" rel="stylesheet">
+    <link href="./resources/css/reset.css" rel="stylesheet">
+    <link href="./resources/icon/css/all.css" rel="stylesheet">
+    <link href="./resources/css/todo/todo.css" rel="stylesheet">
+    <script src="./resources/js/common.js"></script>
+    <script defer src="./resources/js/todo/todo.js"></script>
+    <script defer src="./resources/js/todo/weather-api.js"></script>
+    <script defer src="./resources/js/todo/unsplashh-api.js"></script>
+
+</head>
+<body>
+    <div class="weather row">
+    </div>
+    <div class="contents row">
+        <div class="todo col">
+            <div class="clock col">
+                <div class="welcome"><span>Welcome 2023!</span></div>
+                <div class="time row"><span>14 : 05 : 00</span></div>
+            </div>
+            <div class="user" id="userDiv"></div>
+            <div class="wrap_inp col">
+                <input type="text" class="inp" id="inp"  placeholder="Type your name here">
+            </div>
+        </div>
+        <ul class="todo-list row" id="todoList">
+            <li class="item"><i class="fa-regular fa-trash-can"></i> 자바</li>
+            <li class="item"><i class="fa-regular fa-trash-can"></i> 자바스크립트 공부하기</li>
+            <li class="item"><i class="fa-regular fa-trash-can"></i>  떡국 먹기</li>
+            <li class="item"><i class="fa-regular fa-trash-can"></i> 아침에 일어나서 세수하기</li>
+            <li class="item"><i class="fa-regular fa-trash-can"></i> 아침에 일어나서 세수하기</li>
+        </ul>
+    </div>
+    <div class="bg-location">
+    </div>
+
+   
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./resources/css/common.css" rel="stylesheet">
+    <link href="./resources/css/reset.css" rel="stylesheet">
+    <link href="./resources/icon/css/all.css" rel="stylesheet">
+    <link href="./resources/css/myTodo/myTodo.css" rel="stylesheet">
+    <script src="./resources/js/common.js"></script>
+    <script defer src="./resources/js/todo/weather-api.js"></script>
+    <script defer src="./resources/js/myTodo/myTodo.js"></script>
+    <!-- <script defer src="./resources/js/todo/unsplashh-api.js"></script> -->
+
+
+</head>
+
+<body>
+    <div class="user-weather row">
+        <div class="user">
+            <span>ToDoList : </span>
+            <span id="userName"> 유저 </span>
+            <span> LogOut </span>
+        </div>
+        <div class="weather"></div>
+    </div>
+
+    <div class="wrap_today row">
+        <span id="arrow">
+            <i class="fa-regular fa-circle-left"></i>
+            <i class="fa-regular fa-circle-right"></i>
+        </span>
+        <span id="today">2023.01.15</span>
+        <span>달력</span>
+    </div>
+
+    <div class="todoList row" id="todolists">
+        <ul>contents</ul>
+    </div>
+
+    <div class="input-todo row">
+        <span>ToDo :</span>
+        <input type="text" class="inp" id="inp" placeholder="Type your name here">
+    </div>
+</body>
+
+</html>

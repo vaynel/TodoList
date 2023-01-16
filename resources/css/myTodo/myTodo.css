@@ -1,0 +1,68 @@
+@charset 'utf-8';
+
+body{
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.user-weather{
+    height: 5vh;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 2vw;
+    
+}
+.user{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    transform: translateX(30%);
+    padding: 10px;
+    
+}
+.user>span{
+    margin-left: 15px;
+}
+
+.weather{
+    transform: translateX(-30%);
+}
+
+#arrow{
+    font-size: 20px;
+}
+.wrap_today{
+    height: 5vh;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 2vw;
+    
+}
+#arrow>i{
+    margin: 5px;
+}
+
+/*********************** header **********************/
+
+/* main */
+.todoList{
+    height: 80vh;
+}
+.todoList>div{
+    width: 100%;
+    margin-top: 10px;
+    position: relative;
+    
+}
+
+
+.input-todo{
+    height: 5vh;
+}
+#inp{
+    width: 70%;
+}
+
+/* .input-todo>*{
+    margin: 5px;
+} */
